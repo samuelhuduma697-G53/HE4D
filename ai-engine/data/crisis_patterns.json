@@ -1,0 +1,32 @@
+{
+  "mental_health": {
+    "keywords": ["anxiety", "depression", "suicide", "hopeless", "panic", "scared", "fear", "overwhelmed", "stressed", "crying"],
+    "phrases": ["want to die", "end my life", "can't take it anymore", "no reason to live", "feel like giving up"],
+    "weight": 1.5,
+    "recommended_helper": "Mental Health Counselor"
+  },
+  "violence": {
+    "keywords": ["abuse", "assault", "danger", "threat", "hurt", "attack", "violent", "fighting", "weapon", "blood"],
+    "phrases": ["being attacked", "someone is hurting me", "domestic violence", "physical abuse"],
+    "weight": 2.0,
+    "recommended_helper": "Crisis Intervention Specialist"
+  },
+  "legal": {
+    "keywords": ["lawyer", "legal", "court", "arrest", "custody", "rights", "police", "jail", "prison", "lawsuit"],
+    "phrases": ["need a lawyer", "legal help", "wrongfully arrested", "custody battle"],
+    "weight": 1.2,
+    "recommended_helper": "Legal Professional"
+  },
+  "medical": {
+    "keywords": ["injury", "pain", "bleeding", "sick", "hospital", "medical", "wound", "broken", "unconscious", "seizure"],
+    "phrases": ["can't breathe", "heart attack", "severe pain", "need ambulance"],
+    "weight": 1.8,
+    "recommended_helper": "Medical Professional"
+  },
+  "social": {
+    "keywords": ["eviction", "homeless", "food", "money", "job", "housing", "rent", "utilities", "hungry", "shelter"],
+    "phrases": ["nowhere to go", "losing my home", "can't afford food"],
+    "weight": 1.0,
+    "recommended_helper": "Social Worker"
+  }
+}

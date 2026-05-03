@@ -1,0 +1,29 @@
+{
+  "immediate_response": [
+    "i want to kill myself",
+    "i'm going to kill myself",
+    "i want to die",
+    "please help me",
+    "emergency",
+    "immediate danger",
+    "someone is attacking me",
+    "i'm being followed",
+    "i'm bleeding badly",
+    "can't breathe"
+  ],
+  "high_priority": [
+    "i'm scared for my life",
+    "i feel like hurting myself",
+    "i'm having a panic attack",
+    "i'm being threatened",
+    "domestic violence",
+    "child in danger"
+  ],
+  "medium_priority": [
+    "i need someone to talk to",
+    "i'm feeling very anxious",
+    "i'm depressed",
+    "i need legal advice",
+    "i'm about to be evicted"
+  ]
+}

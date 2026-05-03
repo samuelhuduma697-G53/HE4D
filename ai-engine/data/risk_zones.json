@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Eastlands High Risk Area",
+    "center": {"lat": -1.2833, "lng": 36.8500},
+    "radius_km": 2.5,
+    "risk_level": "high",
+    "risk_score": 0.85,
+    "incident_history": 47
+  },
+  {
+    "name": "Industrial Area",
+    "center": {"lat": -1.3167, "lng": 36.8500},
+    "radius_km": 2.0,
+    "risk_level": "medium",
+    "risk_score": 0.65,
+    "incident_history": 23
+  },
+  {
+    "name": "City Center Night Zone",
+    "center": {"lat": -1.2864, "lng": 36.8172},
+    "radius_km": 1.5,
+    "risk_level": "medium",
+    "risk_score": 0.60,
+    "incident_history": 31,
+    "time_restricted": {
+      "start_hour": 20,
+      "end_hour": 5,
+      "multiplier": 1.5
+    }
+  },
+  {
+    "name": "Kibera Informal Settlement",
+    "center": {"lat": -1.3167, "lng": 36.7833},
+    "radius_km": 3.0,
+    "risk_level": "high",
+    "risk_score": 0.80,
+    "incident_history": 56
+  },
+  {
+    "name": "Mathare Valley",
+    "center": {"lat": -1.2667, "lng": 36.8500},
+    "radius_km": 2.0,
+    "risk_level": "high",
+    "risk_score": 0.82,
+    "incident_history": 42
+  }
+]

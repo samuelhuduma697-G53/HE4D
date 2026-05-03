@@ -1,0 +1,131 @@
+@import 'maplibre-gl/dist/maplibre-gl.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    border-color: #374151;
+  }
+  
+  body { 
+    background-color: #1a202c;
+    color: #f3f4f6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  ::-webkit-scrollbar { 
+    width: 8px; 
+    height: 8px; 
+  }
+  
+  ::-webkit-scrollbar-track { 
+    background: #1a202c; 
+  }
+  
+  ::-webkit-scrollbar-thumb { 
+    background: #2d3748; 
+    border-radius: 9999px;
+  }
+}
+
+@layer components {
+  .glass-card {
+    background: rgba(45, 55, 72, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .glass-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background: rgba(26, 32, 44, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    transition: all 0.2s ease;
+  }
+  
+  .glass-input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(245, 176, 65, 0.5);
+    border-color: rgba(245, 176, 65, 0.5);
+  }
+  
+  .glass-input::placeholder {
+    color: #9ca3af;
+  }
+  
+  .btn-primary {
+    padding: 0.75rem 1.5rem;
+    background-color: #ff4d4d;
+    color: white;
+    font-weight: 600;
+    border-radius: 12px;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 6px -2px rgba(255, 77, 77, 0.2);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e04444;
+  }
+  
+  .btn-primary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .btn-secondary {
+    padding: 0.75rem 1.5rem;
+    background-color: #2d3748;
+    color: white;
+    font-weight: 500;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #374151;
+  }
+  
+  .btn-gold {
+    padding: 0.75rem 1.5rem;
+    background-color: #F5B041;
+    color: #1a202c;
+    font-weight: 600;
+    border-radius: 12px;
+    transition: all 0.2s ease;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-gold:hover {
+    background-color: #e6a030;
+  }
+  
+  .emergency-badge {
+    background: rgba(220, 38, 38, 0.2);
+    color: #dc2626;
+    border: 1px solid rgba(220, 38, 38, 0.3);
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  
+  .acuity-critical { color: #dc2626; }
+  .acuity-high { color: #eab308; }
+  .acuity-moderate { color: #F5B041; }
+  .acuity-low { color: #22c55e; }
+}

@@ -1,0 +1,21 @@
+:root {
+  --primary-gold: #F5B041;
+  --primary-red: #ff4d4d;
+  --primary-blue: #1e3a8a;
+  --dark-base: #1a202c;
+  --dark-elevated: #2d3748;
+  --dark-card: #1e293b;
+  --emergency: #dc2626;
+  --success: #22c55e;
+  --warning: #eab308;
+  --info: #3b82f6;
+  --border-radius-card: 16px;
+  --border-radius-input: 12px;
+  --shadow-card: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+  --shadow-glow-gold: 0 0 20px rgba(245, 176, 65, 0.3);
+  --shadow-glow-red: 0 0 20px rgba(255, 77, 77, 0.3);
+}
+
+.dark {
+  color-scheme: dark;
+}

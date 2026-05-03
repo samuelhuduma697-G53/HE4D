@@ -1,0 +1,10 @@
+node_modules/
+venv/
+.env
+logs/
+*.log
+dist/
+.DS_Store
+mongo-data/
+__pycache__/
+*.pyc

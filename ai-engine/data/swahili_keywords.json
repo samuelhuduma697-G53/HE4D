@@ -1,0 +1,8 @@
+{
+  "emergency": ["msaada", "dharura", "haraka", "tatizo", "shida", "hatari"],
+  "mental_health": ["hangaika", "hofu", "wasiwasi", "huzuni", "uchungu", "dhiki", "kujiua", "kujeruhi"],
+  "violence": ["vurugu", "dhuluma", "shambulio", "mapigano", "unyanyasaji", "kupigwa"],
+  "medical": ["maumivu", "ugonjwa", "hospitali", "daktari", "damu", "fahamu", "mshtuko"],
+  "legal": ["polisi", "mahakama", "kesi", "mwana sheria", "kukamatwa", "haki"],
+  "social": ["nyumba", "chakula", "kazi", "fedha", "elimu", "usaidizi"]
+}
