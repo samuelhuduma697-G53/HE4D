@@ -25,8 +25,10 @@ database.connect().then(() => {
     logger.info(`Socket.IO ready for connections`);
   });
 }).catch((error) => {
-  logger.error('Failed to connect to database:', error);
-  process.exit(1);
+  logger.error('Failed to connect to DB, starting anyway:', error.message);
+  server.listen(PORT, () => {
+    logger.info('Server running on port ' + PORT + ' (no DB)');
+  });
 });
 
 // Graceful shutdown
