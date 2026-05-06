@@ -91,7 +91,7 @@ def rate_limit_by_user(f):
         # Get user identifier from header or IP
         user_id = request.headers.get('X-User-ID', request.remote_addr)
         
-        # Store for rate limiter to use
+
         request.environ['RATELIMIT_KEY'] = user_id
         
         return f(*args, **kwargs)
