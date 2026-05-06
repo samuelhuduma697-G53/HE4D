@@ -7,8 +7,8 @@ import os
 import logging
 from flask import Flask
 from flask_cors import CORS
-from flask_limiter import Limiter
-from flask_limiter.util import get_remote_address
+# from flask_limiter import Limiter
+# from flask_limiter.util import get_remote_address
 from dotenv import load_dotenv
 
 # Load environment variables
@@ -41,8 +41,8 @@ CORS(app, resources={
 })
 
 # Configure rate limiter
-limiter = Limiter(key_func=get_remote_address, default_limits=["200 per day", "50 per hour"])
-limiter.init_app(app)
+# limiter = Limiter(key_func=get_remote_address, default_limits=["200 per day", "50 per hour"])
+# limiter.init_app(app)
 # Import routes
 from api.triage_routes import triage_bp
 from api.health_routes import health_bp
