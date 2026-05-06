@@ -19,7 +19,7 @@ logging.basicConfig(
     level=getattr(logging, os.getenv('LOG_LEVEL', 'INFO')),
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler(os.getenv('LOG_FILE', './logs/ai_engine.log')),
+        # logging.FileHandler line removed for Railway
         logging.StreamHandler()
     ]
 )
